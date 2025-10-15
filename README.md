@@ -55,14 +55,16 @@ cd mnist-digit-recognition
 pip install -r requirements.txt
 ```
 
-### 3️- Run the app
+### 3-train the model
+```bash
+python3 run train.py
+```
+
+### 4- Run the app
 ```bash
 streamlit run app.py
 ```
-## You can test the model by visiting Streamlit site
-```bash
-https://enes-abulgayt-digit-recognition.streamlit.app/
-```
+
 ---
 
 #  Türkçe
@@ -115,12 +117,17 @@ git clone https://github.com/enes-abulgayt/digit-recognition.git
 cd mnist-digit-recognition
 ```
 
-### 2️- Install dependencies
+### 2️- Bağımlılıkları Yükle
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️- Run the app
+### 3- Modeli Eğit
+```bash
+python3 run train.py
+```
+
+### 4- Uygulamayı Başlat
 ```bash
 streamlit run app.py
 ```
