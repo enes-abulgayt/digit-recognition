@@ -5,7 +5,7 @@ import cv2
 from tensorflow.keras.models import load_model
 
 
-model = load_model("mymodel.h5")
+model = load_model("mymodel.keras")
 
 st.title("✍️ Handwritten Digit Recognition")
 st.write("draw a number from 0 to 9 the model will guss it")
