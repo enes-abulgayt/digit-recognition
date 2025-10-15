@@ -19,7 +19,7 @@ The model is trained on the **MNIST dataset** using TensorFlow and Keras.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/mnist-digit-recognition.git
+git clone https://github.com/enes-abulgayt/digit-recognition.git
 cd mnist-digit-recognition
 ```
 
@@ -59,7 +59,7 @@ Model, TensorFlow ve Keras kullanılarak **MNIST veri seti** üzerinde eğitilmi
 
 ### 1️⃣ Depoyu klonlayın
 ```bash
-git clone https://github.com/YOUR_USERNAME/mnist-digit-recognition.git
+git clone https://github.com/enes-abulgayt/digit-recognition.git
 cd mnist-digit-recognition
 ```
 
