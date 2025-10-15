@@ -1,3 +1,4 @@
+# 🇬🇧 English
 # ✍️ Handwritten Digit Recognition (MNIST)
 
 A simple **Streamlit web app** that recognizes handwritten digits (0–9) drawn by the user.  
@@ -21,15 +22,20 @@ The model is trained on the **MNIST dataset** using TensorFlow and Keras.
 git clone https://github.com/YOUR_USERNAME/mnist-digit-recognition.git
 cd mnist-digit-recognition
 ```
+
 ###  2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Run the app
+```bash
 streamlit run app.py
+```
 
 ---
 
-
+# 🇹🇷 Türkçe
 # ✍️ El Yazısı Rakam Tanıma (MNIST)
 
 Kullanıcının çizdiği **0–9 arasındaki el yazısı rakamlarını** tanıyan basit bir **Streamlit web uygulaması**.  
@@ -55,7 +61,11 @@ cd mnist-digit-recognition
 ```
 
 ### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Run the app
+```bash
 streamlit run app.py
+```
