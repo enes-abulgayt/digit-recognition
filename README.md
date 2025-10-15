@@ -15,6 +15,26 @@ The model is trained on the **MNIST dataset** using TensorFlow and Keras.
 
 ---
 
+## 🧠 Model Architecture and Algorithms
+
+This project uses a fully connected neural network (Dense Network) to classify handwritten digits from the MNIST dataset.  
+Instead of using convolutional layers, the model flattens each 28×28 image into a 784-dimensional vector and passes it through several dense layers.
+
+### 🔧 Architecture
+- `Dense(256, relu)` – First hidden layer with 256 neurons  
+- `Dropout(0.2)` – Regularization to prevent overfitting  
+- `Dense(128, relu)` – Second hidden layer  
+- `Dropout(0.2)` – Another regularization layer  
+- `Dense(64, relu)` – Third hidden layer  
+- `Dense(10, softmax)` – Output layer for digit classification
+
+### ⚙️ Training Details
+- **Optimizer**: Adam  
+- **Loss Function**: Sparse Categorical Crossentropy  
+- **Epochs**: 10  
+- **Batch Size**: 32  
+- **Validation Split**: 10% of training data
+
 ## 🧩 How to Run Locally
 
 ### 1️⃣ Clone the repository
@@ -50,6 +70,31 @@ Model, TensorFlow ve Keras kullanılarak **MNIST veri seti** üzerinde eğitilmi
 - 💾 Eğitilmiş model dosyası: `mymodel.h5`
 
 ---
+
+## 🧠 Model Mimarisi ve Algoritmalar
+
+Bu proje, MNIST veri kümesindeki el yazısı rakamları sınıflandırmak için tam bağlantılı bir sinir ağı (Dense Network) kullanır.  
+Evrişimli katmanlar (CNN) yerine, model her 28×28 görüntüyü 784 boyutlu bir vektöre dönüştürür ve bunu birkaç yoğun (dense) katmandan geçirir.
+
+### 🔧 Mimari
+- `Dense(256, relu)` – 256 nöronlu ilk gizli katman  
+- `Dropout(0.2)` – Aşırı öğrenmeyi önlemek için düzenleme katmanı  
+- `Dense(128, relu)` – İkinci gizli katman  
+- `Dropout(0.2)` – Bir başka düzenleme katmanı  
+- `Dense(64, relu)` – Üçüncü gizli katman  
+- `Dense(10, softmax)` – Rakam sınıflandırması için çıkış katmanı
+
+### ⚙️ Eğitim Detayları
+- **Optimizasyon**: Adam  
+- **Kayıp Fonksiyonu**: Sparse Categorical Crossentropy  
+- **Epok Sayısı**: 10  
+- **Batch Boyutu**: 32  
+- **Doğrulama Bölmesi**: Eğitim verisinin %10'u
+
+### 📊 Performans
+Model, test verisinde %97'nin üzerinde doğruluk elde eder.  
+Eğitilen model `mymodel.h5` olarak kaydedilir ve Streamlit uygulamasında tahmin için kullanılabilir.
+
 
 ## 🧩 Yerel Olarak Çalıştırma
 
