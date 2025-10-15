@@ -21,27 +21,8 @@ The model is trained on the **MNIST dataset** using TensorFlow and Keras.
 git clone https://github.com/YOUR_USERNAME/mnist-digit-recognition.git
 cd mnist-digit-recognition
 
----
+### 2️⃣ Install dependencies
+pip install -r requirements.txt
 
-# ✍️ El Yazısı Rakam Tanıma (MNIST)
-
-Kullanıcının çizdiği **0–9 arasındaki el yazısı rakamlarını** tanıyan basit bir **Streamlit web uygulaması**.  
-Model, TensorFlow ve Keras kullanılarak **MNIST veri seti** üzerinde eğitilmiştir.
-
----
-
-## 🚀 Özellikler
-
-- 🧠 TensorFlow/Keras ile oluşturulmuş derin öğrenme modeli  
-- 🖊️ Etkileşimli çizim alanı (Streamlit Drawable Canvas)  
-- 📊 Canlı tahmin sonuçları ve olasılık grafiği  
-- 💾 Eğitilmiş model dosyası: `mymodel.h5`
-
----
-
-## 🧩 Yerel Olarak Çalıştırma
-
-### 1️⃣ Depoyu klonlayın
-```bash
-git clone https://github.com/YOUR_USERNAME/mnist-digit-recognition.git
-cd mnist-digit-recognition
+### 3️⃣ Run the app
+streamlit run app.py
