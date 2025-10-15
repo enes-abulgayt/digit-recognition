@@ -26,5 +26,5 @@ mymodel.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.1)
 test_loss, test_acc = mymodel.evaluate(x_test, y_test, verbose=2)
 print("✅ Test accuracy:", test_acc)
 
-mymodel.save("mymodel.h5")
-print("💾 Model saved as model.h5")
+mymodel.save("mymodel.keras")
+print("💾 Model saved as mymodel.keras")
