@@ -32,7 +32,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
+## you can test the app from here
+```bash
+[streamlit run app.py](https://enes-abulgayt-digit-recognition.streamlit.app/)
+```
 ---
 
 # 🇹🇷 Türkçe
