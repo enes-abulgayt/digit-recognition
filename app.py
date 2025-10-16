@@ -8,7 +8,7 @@ if not os.path.exists("mymodel.keras"):
     st.error("Model file not found. Please upload 'mymodel.keras' to the app directory.")
     st.stop()
 
-model = load_model("mymodel.keras")
+model = load_model("mymodel.keras", compile=False)
 
 st.title("Handwritten Digit Recognition")
 st.write("draw a number from 0 to 9 the model will guss it")
