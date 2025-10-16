@@ -57,12 +57,12 @@ pip install -r requirements.txt
 
 ### 3-train the model
 ```bash
-python3 run train.py
+python3 train.py
 ```
 
 ### 4- Run the app
 ```bash
-streamlit run app.py
+streamlit app.py
 ```
 
 ---
@@ -124,10 +124,10 @@ pip install -r requirements.txt
 
 ### 3- Modeli Eğit
 ```bash
-python3 run train.py
+python3 train.py
 ```
 
 ### 4- Uygulamayı Başlat
 ```bash
-streamlit run app.py
+streamlit app.py
 ```
