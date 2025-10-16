@@ -5,12 +5,12 @@ import cv2
 from tensorflow.keras.models import load_model
 import os
 if not os.path.exists("mymodel.keras"):
-    st.error("❌ Model file not found. Please upload 'mymodel.keras' to the app directory.")
+    st.error("Model file not found. Please upload 'mymodel.keras' to the app directory.")
     st.stop()
 
 model = load_model("mymodel.keras")
 
-st.title("✍️ Handwritten Digit Recognition")
+st.title("Handwritten Digit Recognition")
 st.write("draw a number from 0 to 9 the model will guss it")
 
 CANVAS_SIZE = 280
@@ -49,10 +49,10 @@ if canvas_result.image_data is not None:
        
         input_img = final_img.reshape(1, 28*28).astype("float32") / 255.0
 
-        if st.button("🔮 Predict"):
+        if st.button(" Predict"):
             prediction = model.predict(input_img)
             digit_pred = np.argmax(prediction)
 
             st.image(final_img, caption="Processed Input (28x28)", width=150)
-            st.write(f"### ✅ the model pridect : **{digit_pred}**")
+            st.write(f"### the model pridect : **{digit_pred}**")
             st.bar_chart(prediction[0])
