@@ -47,7 +47,7 @@ The trained model is saved as `mymodel.h5` and can be loaded for inference in th
 ### 1️- Clone the repository
 ```bash
 git clone https://github.com/enes-abulgayt/digit-recognition.git
-cd mnist-digit-recognition
+cd digit-recognition
 ```
 
 ###  2️- Install dependencies
@@ -114,7 +114,7 @@ Eğitilen model `mymodel.h5` olarak kaydedilir ve Streamlit uygulamasında tahmi
 ### 1️- Depoyu klonlayın
 ```bash
 git clone https://github.com/enes-abulgayt/digit-recognition.git
-cd mnist-digit-recognition
+cd digit-recognition
 ```
 
 ### 2️- Bağımlılıkları Yükle
