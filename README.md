@@ -62,7 +62,7 @@ python3 train.py
 
 ### 4- Run the app
 ```bash
-streamlit app.py
+python -m streamlit run app.py
 ```
 
 ---
@@ -129,5 +129,5 @@ python3 train.py
 
 ### 4- Uygulamayı Başlat
 ```bash
-streamlit app.py
+python -m streamlit run app.py
 ```
